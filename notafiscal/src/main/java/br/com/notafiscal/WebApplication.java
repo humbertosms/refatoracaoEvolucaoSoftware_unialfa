@@ -23,7 +23,7 @@ public class WebApplication {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUsername("postgres");
         dataSource.setPassword("root");
-        dataSource.setUrl("jdbc:postgresql://172.62.10.31:5432/contabil");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/contabil");
         dataSource.setDriverClassName("org.postgresql.Driver");
         return dataSource;
     }
